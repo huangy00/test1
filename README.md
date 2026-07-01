@@ -154,7 +154,3 @@ Playwright 基础页面封装，提供 click、fill、wait_for_selector、screen
 1. 用户注册后查询 oc_customer 表验证用户已插入
 2. 下单后查询 oc_order 表验证订单已生成
 3. 验证订单商品关联和库存一致性
-
-## AI 贡献
-
-详见 [AI_CONTRIBUTION.md](AI_CONTRIBUTION.md)
