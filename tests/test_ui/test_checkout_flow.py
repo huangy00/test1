@@ -36,6 +36,14 @@ class TestCheckoutFlow:
         5. 下单结算
         6. 数据库验证订单
         """
+        # ===== 0. 清理旧用户（确保注册能成功） =====
+        with allure.step("步骤0：清理旧测试用户"):
+            email = test_data["register_user"]["email"]
+            deleted = db_helper.execute(
+                "DELETE FROM oc_customer WHERE email = %s", (email,)
+            )
+            logger.info(f"Cleaned up old user: {email}, deleted={deleted}")
+
         # ===== 1. 注册用户 =====
         with allure.step("步骤1：注册新用户"):
             register_page = RegisterPage(page)

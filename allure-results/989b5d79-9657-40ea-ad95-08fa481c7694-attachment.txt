@@ -1,3 +1,0 @@
-INFO     auto_test:conftest.py:88 Test data loaded: ['register_user', 'login_user', 'invalid_user', 'search_keyword', 'expected_product', 'checkout']
-INFO     auto_test:db_helper.py:37 Database connection established
-INFO     auto_test:test_data_consistency.py:38 User found: testuser_2026@example.com

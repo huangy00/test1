@@ -1,1 +1,0 @@
-[{'order_product_id': 1, 'order_id': 1, 'product_id': 28, 'master_id': 0, 'name': 'HTC Touch HD', 'model': 'Product 1', 'quantity': 1, 'price': Decimal('100.0000'), 'total': Decimal('100.0000'), 'tax': Decimal('0.0000'), 'reward': 400}]
