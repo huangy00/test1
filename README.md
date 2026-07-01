@@ -48,6 +48,7 @@ auto_test_framework/
 │   └── test_db/
 │       ├── __init__.py
 │       └── test_data_consistency.py  # 数据一致性测试
+├── setup.py                 # 一键初始化脚本
 ├── conftest.py              # Pytest Fixture
 ├── pytest.ini               # Pytest 配置
 ├── requirements.txt         # Python 依赖
@@ -57,43 +58,45 @@ auto_test_framework/
 ## 环境要求
 
 - Python 3.10+
-- MySQL 8.0+ (XAMPP)
-- OpenCart 4.x (已部署到 http://localhost/opencart)
+- XAMPP（Apache + MySQL）
+- OpenCart 4.x
 
 ## 快速开始
 
-### 1. 安装依赖
+### 第一步：安装 XAMPP 并启动服务
+
+1. 下载安装 [XAMPP](https://www.apachefriends.org/)
+2. 启动 Apache 和 MySQL
+3. 下载 [OpenCart 4.x](https://github.com/opencart/opencart/releases)
+4. 将 `upload` 目录复制到 `C:\xampp\htdocs\opencart`
+5. 浏览器访问 `http://localhost/opencart`，完成安装向导
+   - 数据库名：`xiangmu`
+   - 数据库用户：`root`
+   - 数据库密码：`root123456`
+
+### 第二步：一键初始化
 
 ```bash
-cd auto_test_framework
-python -m venv venv
-venv\Scripts\activate        # Windows
-pip install -r requirements.txt
-playwright install chromium
+git clone https://github.com/huangy00/test1.git
+cd test1
+python setup.py
 ```
 
-### 2. 配置数据库
+setup.py 会自动完成：
+- 创建 `xiangmu` 数据库
+- 创建虚拟环境并安装 Python 依赖
+- 安装 Playwright Chromium 浏览器
+- 安装 OpenCart 支付扩展
 
-确保 MySQL 中存在 `xiangmu` 数据库：
-
-```sql
-CREATE DATABASE IF NOT EXISTS xiangmu CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-```
-
-修改 `config/config.ini` 中的数据库连接信息：
-
-```ini
-[db]
-host = localhost
-port = 3306
-user = root
-password = root123456
-database = xiangmu
-```
-
-### 3. 运行测试
+### 第三步：运行测试
 
 ```bash
+# Windows
+venv\Scripts\activate
+
+# Linux/Mac
+source venv/bin/activate
+
 # 运行所有测试
 pytest
 
@@ -102,19 +105,12 @@ pytest tests/test_ui/
 
 # 仅运行数据库测试
 pytest tests/test_db/
-
-# 运行指定测试
-pytest tests/test_ui/test_checkout_flow.py
 ```
 
-### 4. 查看 Allure 报告
+### 第四步：查看 Allure 报告
 
 ```bash
-# 生成报告
-allure generate allure-results -o allure-report --clean
-
-# 打开报告
-allure open allure-report
+allure serve allure-results
 ```
 
 ## 核心模块说明
