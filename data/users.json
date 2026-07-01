@@ -1,0 +1,17 @@
+{
+    "register_user": {
+        "firstname": "Test",
+        "lastname": "User",
+        "email": "testuser_2026@example.com",
+        "telephone": "13800138000",
+        "password": "Test@12345"
+    },
+    "login_user": {
+        "email": "testuser_2026@example.com",
+        "password": "Test@12345"
+    },
+    "invalid_user": {
+        "email": "nonexistent@example.com",
+        "password": "wrongpassword"
+    }
+}

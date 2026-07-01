@@ -1,0 +1,15 @@
+{
+    "search_keyword": "MacBook",
+    "expected_product": "MacBook",
+    "checkout": {
+        "firstname": "Test",
+        "lastname": "User",
+        "email": "testuser_2026@example.com",
+        "telephone": "13800138000",
+        "address": "Test Street 123",
+        "city": "Beijing",
+        "postcode": "100000",
+        "country": "China",
+        "region": "Beijing"
+    }
+}
