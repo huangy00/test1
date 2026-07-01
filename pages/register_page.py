@@ -16,9 +16,8 @@ class RegisterPage(BasePage):
     INPUT_FIRSTNAME = "#input-firstname"      # 名字输入框
     INPUT_LASTNAME = "#input-lastname"        # 姓氏输入框
     INPUT_EMAIL = "#input-email"              # 邮箱输入框
-    INPUT_TELEPHONE = "#input-telephone"      # 电话输入框
     INPUT_PASSWORD = "#input-password"        # 密码输入框
-    BTN_CONTINUE = "input[value='Continue']"  # 注册按钮
+    BTN_CONTINUE = "button.btn-primary[type='submit']"  # 注册按钮（Continue）
     MSG_SUCCESS = ".alert-success"            # 注册成功提示
     MSG_ERROR = ".alert-danger"               # 注册失败提示
     LINK_LOGIN = "a:has-text('login')"        # 登录链接
@@ -30,20 +29,18 @@ class RegisterPage(BasePage):
         logger.info("Register page opened")
         return self
 
-    def register(self, firstname: str, lastname: str, email: str, telephone: str, password: str):
+    def register(self, firstname: str, lastname: str, email: str, password: str):
         """
         执行注册操作
         :param firstname: 名字
         :param lastname: 姓氏
         :param email: 邮箱
-        :param telephone: 电话
         :param password: 密码
         """
         logger.info(f"Registering user: {email}")
         self.fill(self.INPUT_FIRSTNAME, firstname)
         self.fill(self.INPUT_LASTNAME, lastname)
         self.fill(self.INPUT_EMAIL, email)
-        self.fill(self.INPUT_TELEPHONE, telephone)
         self.fill(self.INPUT_PASSWORD, password)
 
         # 勾选隐私政策（如果有复选框的话）

@@ -27,7 +27,12 @@ class BasePage:
         :param url: 目标地址
         """
         logger.info(f"Navigating to {url}")
-        self.page.goto(url, wait_until="domcontentloaded")
+        try:
+            self.page.goto(url, wait_until="domcontentloaded", timeout=15000)
+        except Exception:
+            # 如果 domcontentloaded 失败（如重定向），尝试 commit 模式
+            logger.warning(f"Navigation with domcontentloaded failed, trying commit mode")
+            self.page.goto(url, wait_until="commit", timeout=15000)
 
     def click(self, selector: str, timeout: int = None):
         """

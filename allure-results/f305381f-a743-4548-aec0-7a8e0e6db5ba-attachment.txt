@@ -1,0 +1,2 @@
+INFO     auto_test:conftest.py:80 Test data loaded: ['register_user', 'login_user', 'invalid_user']
+INFO     auto_test:test_data_consistency.py:70 Order found: order_id=1

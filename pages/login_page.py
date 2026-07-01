@@ -15,7 +15,7 @@ class LoginPage(BasePage):
     # 页面元素定位器
     INPUT_EMAIL = "#input-email"              # 邮箱输入框
     INPUT_PASSWORD = "#input-password"        # 密码输入框
-    BTN_LOGIN = "input[value='Login']"        # 登录按钮
+    BTN_LOGIN = "button.btn-primary[type='submit']"  # 登录按钮（Login）
     MSG_ERROR = ".alert-danger"               # 登录失败提示
     MSG_SUCCESS = ".alert-success"            # 登录成功提示
     LINK_REGISTER = "a:has-text('Register')"  # 注册链接

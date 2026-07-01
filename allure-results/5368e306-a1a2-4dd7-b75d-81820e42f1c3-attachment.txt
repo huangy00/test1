@@ -1,0 +1,3 @@
+INFO     auto_test:conftest.py:80 Test data loaded: ['register_user', 'login_user', 'invalid_user']
+INFO     auto_test:db_helper.py:37 Database connection established
+WARNING  auto_test:test_data_consistency.py:45 User not found: testuser_2026@example.com

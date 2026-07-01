@@ -1,0 +1,350 @@
+2026-07-01 23:32:21 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-01 23:32:21 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-01 23:42:02 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-01 23:42:06 - auto_test - INFO - Page opened, navigating to http://localhost/opencart
+2026-07-01 23:42:06 - auto_test - INFO - Test data loaded: ['register_user', 'login_user', 'invalid_user']
+2026-07-01 23:42:06 - auto_test - INFO - Navigating to http://localhost/opencart/index.php?route=account/register
+2026-07-01 23:42:06 - auto_test - INFO - Register page opened
+2026-07-01 23:42:06 - auto_test - INFO - Registering user: testuser_2026@example.com
+2026-07-01 23:42:06 - auto_test - INFO - Filling: #input-firstname with 'Test'
+2026-07-01 23:42:06 - auto_test - INFO - Filling: #input-lastname with 'User'
+2026-07-01 23:42:06 - auto_test - INFO - Filling: #input-email with 'testuser_2026@example.com'
+2026-07-01 23:42:06 - auto_test - INFO - Filling: #input-telephone with '13800138000'
+2026-07-01 23:42:17 - auto_test - WARNING - Failure screenshot captured: fill_failure
+2026-07-01 23:42:17 - auto_test - INFO - Browser closed
+2026-07-01 23:47:20 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-01 23:47:20 - auto_test - INFO - Test data loaded: ['register_user', 'login_user', 'invalid_user']
+2026-07-01 23:47:20 - auto_test - INFO - Database connection established
+2026-07-01 23:47:20 - auto_test - WARNING - User not found: testuser_2026@example.com
+2026-07-01 23:47:20 - auto_test - INFO - Test data loaded: ['register_user', 'login_user', 'invalid_user']
+2026-07-01 23:47:20 - auto_test - INFO - Order found: order_id=1
+2026-07-01 23:47:20 - auto_test - INFO - Test data loaded: ['register_user', 'login_user', 'invalid_user']
+2026-07-01 23:47:20 - auto_test - INFO - Order products count: 1
+2026-07-01 23:47:20 - auto_test - INFO - Test data loaded: ['register_user', 'login_user', 'invalid_user']
+2026-07-01 23:47:20 - auto_test - INFO - Product 28: ordered=1, stock=938
+2026-07-01 23:47:22 - auto_test - INFO - Page opened, navigating to http://localhost/opencart
+2026-07-01 23:47:22 - auto_test - INFO - Test data loaded: ['register_user', 'login_user', 'invalid_user']
+2026-07-01 23:47:22 - auto_test - INFO - Navigating to http://localhost/opencart/index.php?route=account/register
+2026-07-01 23:47:22 - auto_test - INFO - Register page opened
+2026-07-01 23:47:22 - auto_test - INFO - Registering user: testuser_2026@example.com
+2026-07-01 23:47:22 - auto_test - INFO - Filling: #input-firstname with 'Test'
+2026-07-01 23:47:22 - auto_test - INFO - Filling: #input-lastname with 'User'
+2026-07-01 23:47:22 - auto_test - INFO - Filling: #input-email with 'testuser_2026@example.com'
+2026-07-01 23:47:23 - auto_test - INFO - Filling: #input-telephone with '13800138000'
+2026-07-01 23:47:33 - auto_test - WARNING - Failure screenshot captured: fill_failure
+2026-07-01 23:47:33 - auto_test - INFO - Browser closed
+2026-07-01 23:48:21 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-01 23:48:21 - auto_test - INFO - Test data loaded: ['register_user', 'login_user', 'invalid_user']
+2026-07-01 23:48:21 - auto_test - INFO - Database connection established
+2026-07-01 23:48:21 - auto_test - WARNING - User not found: testuser_2026@example.com
+2026-07-01 23:48:21 - auto_test - INFO - Test data loaded: ['register_user', 'login_user', 'invalid_user']
+2026-07-01 23:48:21 - auto_test - INFO - Order found: order_id=1
+2026-07-01 23:48:21 - auto_test - INFO - Test data loaded: ['register_user', 'login_user', 'invalid_user']
+2026-07-01 23:48:21 - auto_test - INFO - Order products count: 1
+2026-07-01 23:48:21 - auto_test - INFO - Test data loaded: ['register_user', 'login_user', 'invalid_user']
+2026-07-01 23:48:21 - auto_test - INFO - Product 28: ordered=1, stock=938
+2026-07-01 23:48:22 - auto_test - INFO - Page opened, navigating to http://localhost/opencart
+2026-07-01 23:48:22 - auto_test - INFO - Test data loaded: ['register_user', 'login_user', 'invalid_user']
+2026-07-01 23:48:22 - auto_test - INFO - Navigating to http://localhost/opencart/index.php?route=account/register
+2026-07-01 23:48:22 - auto_test - INFO - Register page opened
+2026-07-01 23:48:22 - auto_test - INFO - Registering user: testuser_2026@example.com
+2026-07-01 23:48:22 - auto_test - INFO - Filling: #input-firstname with 'Test'
+2026-07-01 23:48:22 - auto_test - INFO - Filling: #input-lastname with 'User'
+2026-07-01 23:48:22 - auto_test - INFO - Filling: #input-email with 'testuser_2026@example.com'
+2026-07-01 23:48:22 - auto_test - INFO - Filling: #input-password with 'Test@12345'
+2026-07-01 23:48:23 - auto_test - INFO - Clicking: button[type='submit']
+2026-07-01 23:48:23 - auto_test - WARNING - Failure screenshot captured: click_failure
+2026-07-01 23:48:23 - auto_test - INFO - Browser closed
+2026-07-01 23:48:57 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-01 23:48:57 - auto_test - INFO - Test data loaded: ['register_user', 'login_user', 'invalid_user']
+2026-07-01 23:48:57 - auto_test - INFO - Database connection established
+2026-07-01 23:48:57 - auto_test - WARNING - User not found: testuser_2026@example.com
+2026-07-01 23:48:57 - auto_test - INFO - Test data loaded: ['register_user', 'login_user', 'invalid_user']
+2026-07-01 23:48:57 - auto_test - INFO - Order found: order_id=1
+2026-07-01 23:48:57 - auto_test - INFO - Test data loaded: ['register_user', 'login_user', 'invalid_user']
+2026-07-01 23:48:57 - auto_test - INFO - Order products count: 1
+2026-07-01 23:48:57 - auto_test - INFO - Test data loaded: ['register_user', 'login_user', 'invalid_user']
+2026-07-01 23:48:57 - auto_test - INFO - Product 28: ordered=1, stock=938
+2026-07-01 23:48:58 - auto_test - INFO - Page opened, navigating to http://localhost/opencart
+2026-07-01 23:48:58 - auto_test - INFO - Test data loaded: ['register_user', 'login_user', 'invalid_user']
+2026-07-01 23:48:58 - auto_test - INFO - Navigating to http://localhost/opencart/index.php?route=account/register
+2026-07-01 23:48:58 - auto_test - INFO - Register page opened
+2026-07-01 23:48:58 - auto_test - INFO - Registering user: testuser_2026@example.com
+2026-07-01 23:48:58 - auto_test - INFO - Filling: #input-firstname with 'Test'
+2026-07-01 23:48:58 - auto_test - INFO - Filling: #input-lastname with 'User'
+2026-07-01 23:48:58 - auto_test - INFO - Filling: #input-email with 'testuser_2026@example.com'
+2026-07-01 23:48:58 - auto_test - INFO - Filling: #input-password with 'Test@12345'
+2026-07-01 23:48:59 - auto_test - INFO - Clicking: button.btn-primary[type='submit']
+2026-07-01 23:48:59 - auto_test - INFO - Screenshot saved: register_result
+2026-07-01 23:48:59 - auto_test - INFO - Registration completed for testuser_2026@example.com
+2026-07-01 23:48:59 - auto_test - INFO - Navigating to http://localhost/opencart/index.php?route=account/login
+2026-07-01 23:48:59 - auto_test - INFO - Login page opened
+2026-07-01 23:48:59 - auto_test - INFO - Logging in with: testuser_2026@example.com
+2026-07-01 23:48:59 - auto_test - INFO - Filling: #input-email with 'testuser_2026@example.com'
+2026-07-01 23:48:59 - auto_test - INFO - Filling: #input-password with 'Test@12345'
+2026-07-01 23:48:59 - auto_test - INFO - Clicking: button.btn-primary[type='submit']
+2026-07-01 23:48:59 - auto_test - INFO - Screenshot saved: login_result
+2026-07-01 23:48:59 - auto_test - INFO - Login completed
+2026-07-01 23:48:59 - auto_test - INFO - Navigating to http://localhost/opencart/index.php?route=product/category&path=20
+2026-07-01 23:49:00 - auto_test - INFO - Browser closed
+2026-07-01 23:49:06 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-01 23:49:06 - auto_test - INFO - Database connection established
+2026-07-01 23:49:06 - auto_test - ERROR - Query all failed: (1054, "Unknown column 'name' in 'field list'")
+2026-07-01 23:49:18 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-01 23:49:18 - auto_test - INFO - Database connection established
+2026-07-01 23:49:24 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-01 23:49:24 - auto_test - INFO - Database connection established
+2026-07-01 23:49:30 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-01 23:49:30 - auto_test - INFO - Database connection established
+2026-07-01 23:49:43 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-01 23:49:45 - auto_test - INFO - Page opened, navigating to http://localhost/opencart
+2026-07-01 23:49:45 - auto_test - INFO - Test data loaded: ['register_user', 'login_user', 'invalid_user']
+2026-07-01 23:49:45 - auto_test - INFO - Navigating to http://localhost/opencart/index.php?route=account/register
+2026-07-01 23:49:45 - auto_test - INFO - Register page opened
+2026-07-01 23:49:45 - auto_test - INFO - Registering user: testuser_2026@example.com
+2026-07-01 23:49:45 - auto_test - INFO - Filling: #input-firstname with 'Test'
+2026-07-01 23:49:45 - auto_test - INFO - Filling: #input-lastname with 'User'
+2026-07-01 23:49:45 - auto_test - INFO - Filling: #input-email with 'testuser_2026@example.com'
+2026-07-01 23:49:45 - auto_test - INFO - Filling: #input-password with 'Test@12345'
+2026-07-01 23:49:45 - auto_test - INFO - Clicking: button.btn-primary[type='submit']
+2026-07-01 23:49:46 - auto_test - INFO - Screenshot saved: register_result
+2026-07-01 23:49:46 - auto_test - INFO - Registration completed for testuser_2026@example.com
+2026-07-01 23:49:46 - auto_test - INFO - Navigating to http://localhost/opencart/index.php?route=account/login
+2026-07-01 23:49:46 - auto_test - INFO - Login page opened
+2026-07-01 23:49:46 - auto_test - INFO - Logging in with: testuser_2026@example.com
+2026-07-01 23:49:46 - auto_test - INFO - Filling: #input-email with 'testuser_2026@example.com'
+2026-07-01 23:49:46 - auto_test - INFO - Filling: #input-password with 'Test@12345'
+2026-07-01 23:49:46 - auto_test - INFO - Clicking: button.btn-primary[type='submit']
+2026-07-01 23:49:46 - auto_test - INFO - Screenshot saved: login_result
+2026-07-01 23:49:46 - auto_test - INFO - Login completed
+2026-07-01 23:49:46 - auto_test - INFO - Navigating to http://localhost/opencart
+2026-07-01 23:49:47 - auto_test - INFO - Browser closed
+2026-07-01 23:50:01 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-01 23:50:02 - auto_test - INFO - Page opened, navigating to http://localhost/opencart/
+2026-07-01 23:50:02 - auto_test - INFO - Test data loaded: ['register_user', 'login_user', 'invalid_user']
+2026-07-01 23:50:02 - auto_test - INFO - Navigating to http://localhost/opencart//index.php?route=account/register
+2026-07-01 23:50:02 - auto_test - INFO - Register page opened
+2026-07-01 23:50:02 - auto_test - INFO - Registering user: testuser_2026@example.com
+2026-07-01 23:50:02 - auto_test - INFO - Filling: #input-firstname with 'Test'
+2026-07-01 23:50:03 - auto_test - INFO - Filling: #input-lastname with 'User'
+2026-07-01 23:50:03 - auto_test - INFO - Filling: #input-email with 'testuser_2026@example.com'
+2026-07-01 23:50:03 - auto_test - INFO - Filling: #input-password with 'Test@12345'
+2026-07-01 23:50:03 - auto_test - INFO - Clicking: button.btn-primary[type='submit']
+2026-07-01 23:50:03 - auto_test - INFO - Screenshot saved: register_result
+2026-07-01 23:50:03 - auto_test - INFO - Registration completed for testuser_2026@example.com
+2026-07-01 23:50:03 - auto_test - INFO - Navigating to http://localhost/opencart//index.php?route=account/login
+2026-07-01 23:50:03 - auto_test - INFO - Login page opened
+2026-07-01 23:50:03 - auto_test - INFO - Logging in with: testuser_2026@example.com
+2026-07-01 23:50:03 - auto_test - INFO - Filling: #input-email with 'testuser_2026@example.com'
+2026-07-01 23:50:03 - auto_test - INFO - Filling: #input-password with 'Test@12345'
+2026-07-01 23:50:03 - auto_test - INFO - Clicking: button.btn-primary[type='submit']
+2026-07-01 23:50:03 - auto_test - INFO - Screenshot saved: login_result
+2026-07-01 23:50:03 - auto_test - INFO - Login completed
+2026-07-01 23:50:03 - auto_test - INFO - Navigating to http://localhost/opencart/
+2026-07-01 23:50:04 - auto_test - INFO - Home page opened
+2026-07-01 23:50:04 - auto_test - INFO - Browser closed
+2026-07-01 23:50:22 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-01 23:50:23 - auto_test - INFO - Page opened, navigating to http://localhost/opencart/
+2026-07-01 23:50:23 - auto_test - INFO - Test data loaded: ['register_user', 'login_user', 'invalid_user', 'search_keyword', 'expected_product', 'checkout']
+2026-07-01 23:50:23 - auto_test - INFO - Navigating to http://localhost/opencart//index.php?route=account/register
+2026-07-01 23:50:23 - auto_test - INFO - Register page opened
+2026-07-01 23:50:23 - auto_test - INFO - Registering user: testuser_2026@example.com
+2026-07-01 23:50:23 - auto_test - INFO - Filling: #input-firstname with 'Test'
+2026-07-01 23:50:23 - auto_test - INFO - Filling: #input-lastname with 'User'
+2026-07-01 23:50:23 - auto_test - INFO - Filling: #input-email with 'testuser_2026@example.com'
+2026-07-01 23:50:23 - auto_test - INFO - Filling: #input-password with 'Test@12345'
+2026-07-01 23:50:23 - auto_test - INFO - Clicking: button.btn-primary[type='submit']
+2026-07-01 23:50:24 - auto_test - INFO - Screenshot saved: register_result
+2026-07-01 23:50:24 - auto_test - INFO - Registration completed for testuser_2026@example.com
+2026-07-01 23:50:24 - auto_test - INFO - Navigating to http://localhost/opencart//index.php?route=account/login
+2026-07-01 23:50:24 - auto_test - INFO - Login page opened
+2026-07-01 23:50:24 - auto_test - INFO - Logging in with: testuser_2026@example.com
+2026-07-01 23:50:24 - auto_test - INFO - Filling: #input-email with 'testuser_2026@example.com'
+2026-07-01 23:50:24 - auto_test - INFO - Filling: #input-password with 'Test@12345'
+2026-07-01 23:50:24 - auto_test - INFO - Clicking: button.btn-primary[type='submit']
+2026-07-01 23:50:24 - auto_test - INFO - Screenshot saved: login_result
+2026-07-01 23:50:24 - auto_test - INFO - Login completed
+2026-07-01 23:50:24 - auto_test - INFO - Navigating to http://localhost/opencart/
+2026-07-01 23:50:25 - auto_test - INFO - Home page opened
+2026-07-01 23:50:25 - auto_test - INFO - Searching product: MacBook
+2026-07-01 23:50:25 - auto_test - INFO - Filling: input[name='search'] with 'MacBook'
+2026-07-01 23:50:25 - auto_test - INFO - Screenshot saved: search_result
+2026-07-01 23:50:25 - auto_test - INFO - Found 4 products, first: MacBook
+2026-07-01 23:50:25 - auto_test - INFO - Adding product at index 0 to cart
+2026-07-01 23:50:56 - auto_test - INFO - Browser closed
+2026-07-01 23:51:28 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-01 23:55:13 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-01 23:55:13 - auto_test - INFO - Database connection established
+2026-07-01 23:55:35 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-01 23:55:36 - auto_test - INFO - Page opened, navigating to http://localhost/opencart/
+2026-07-01 23:55:36 - auto_test - INFO - Test data loaded: ['register_user', 'login_user', 'invalid_user', 'search_keyword', 'expected_product', 'checkout']
+2026-07-01 23:55:36 - auto_test - INFO - Navigating to http://localhost/opencart//index.php?route=account/register
+2026-07-01 23:55:36 - auto_test - INFO - Register page opened
+2026-07-01 23:55:36 - auto_test - INFO - Registering user: testuser_2026@example.com
+2026-07-01 23:55:36 - auto_test - INFO - Filling: #input-firstname with 'Test'
+2026-07-01 23:55:36 - auto_test - INFO - Filling: #input-lastname with 'User'
+2026-07-01 23:55:36 - auto_test - INFO - Filling: #input-email with 'testuser_2026@example.com'
+2026-07-01 23:55:36 - auto_test - INFO - Filling: #input-password with 'Test@12345'
+2026-07-01 23:55:36 - auto_test - INFO - Clicking: button.btn-primary[type='submit']
+2026-07-01 23:55:37 - auto_test - INFO - Screenshot saved: register_result
+2026-07-01 23:55:37 - auto_test - INFO - Registration completed for testuser_2026@example.com
+2026-07-01 23:55:37 - auto_test - INFO - Navigating to http://localhost/opencart//index.php?route=account/login
+2026-07-01 23:55:37 - auto_test - INFO - Login page opened
+2026-07-01 23:55:37 - auto_test - INFO - Logging in with: testuser_2026@example.com
+2026-07-01 23:55:37 - auto_test - INFO - Filling: #input-email with 'testuser_2026@example.com'
+2026-07-01 23:55:37 - auto_test - INFO - Filling: #input-password with 'Test@12345'
+2026-07-01 23:55:37 - auto_test - INFO - Clicking: button.btn-primary[type='submit']
+2026-07-01 23:55:37 - auto_test - INFO - Screenshot saved: login_result
+2026-07-01 23:55:37 - auto_test - INFO - Login completed
+2026-07-01 23:55:37 - auto_test - INFO - Navigating to http://localhost/opencart/
+2026-07-01 23:55:38 - auto_test - INFO - Browser closed
+2026-07-01 23:55:58 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-01 23:55:59 - auto_test - INFO - Page opened, navigating to http://localhost/opencart/
+2026-07-01 23:55:59 - auto_test - INFO - Test data loaded: ['register_user', 'login_user', 'invalid_user', 'search_keyword', 'expected_product', 'checkout']
+2026-07-01 23:55:59 - auto_test - INFO - Navigating to http://localhost/opencart//index.php?route=account/register
+2026-07-01 23:56:00 - auto_test - INFO - Register page opened
+2026-07-01 23:56:00 - auto_test - INFO - Registering user: testuser_2026@example.com
+2026-07-01 23:56:00 - auto_test - INFO - Filling: #input-firstname with 'Test'
+2026-07-01 23:56:00 - auto_test - INFO - Filling: #input-lastname with 'User'
+2026-07-01 23:56:00 - auto_test - INFO - Filling: #input-email with 'testuser_2026@example.com'
+2026-07-01 23:56:00 - auto_test - INFO - Filling: #input-password with 'Test@12345'
+2026-07-01 23:56:00 - auto_test - INFO - Clicking: button.btn-primary[type='submit']
+2026-07-01 23:56:00 - auto_test - INFO - Screenshot saved: register_result
+2026-07-01 23:56:00 - auto_test - INFO - Registration completed for testuser_2026@example.com
+2026-07-01 23:56:00 - auto_test - INFO - Navigating to http://localhost/opencart//index.php?route=account/login
+2026-07-01 23:56:00 - auto_test - INFO - Login page opened
+2026-07-01 23:56:00 - auto_test - INFO - Logging in with: testuser_2026@example.com
+2026-07-01 23:56:00 - auto_test - INFO - Filling: #input-email with 'testuser_2026@example.com'
+2026-07-01 23:56:00 - auto_test - INFO - Filling: #input-password with 'Test@12345'
+2026-07-01 23:56:00 - auto_test - INFO - Clicking: button.btn-primary[type='submit']
+2026-07-01 23:56:00 - auto_test - INFO - Screenshot saved: login_result
+2026-07-01 23:56:00 - auto_test - INFO - Login completed
+2026-07-01 23:56:00 - auto_test - INFO - Navigating to http://localhost/opencart/
+2026-07-01 23:56:01 - auto_test - WARNING - Navigation with domcontentloaded failed, trying commit mode
+2026-07-01 23:56:01 - auto_test - INFO - Home page opened
+2026-07-01 23:56:01 - auto_test - INFO - Searching product: MacBook
+2026-07-01 23:56:01 - auto_test - INFO - Filling: input[name='search'] with 'MacBook'
+2026-07-01 23:56:01 - auto_test - INFO - Screenshot saved: search_result
+2026-07-01 23:56:01 - auto_test - INFO - Found 4 products, first: MacBook
+2026-07-01 23:56:01 - auto_test - INFO - Adding product at index 0 to cart
+2026-07-01 23:56:01 - auto_test - INFO - Waiting for: .alert-success (state=visible)
+2026-07-01 23:56:01 - auto_test - INFO - Screenshot saved: add_to_cart_result
+2026-07-01 23:56:01 - auto_test - INFO - Product added to cart
+2026-07-01 23:56:01 - auto_test - INFO - Navigating to http://localhost/opencart//index.php?route=checkout/checkout
+2026-07-01 23:56:02 - auto_test - INFO - Checkout initiated
+2026-07-01 23:56:02 - auto_test - INFO - Filling billing details
+2026-07-01 23:56:02 - auto_test - INFO - Filling: #input-payment-firstname with 'Test'
+2026-07-01 23:56:12 - auto_test - WARNING - Failure screenshot captured: fill_failure
+2026-07-01 23:56:12 - auto_test - INFO - Browser closed
+2026-07-01 23:58:04 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-02 00:03:02 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-02 00:03:03 - auto_test - INFO - Database connection established
+2026-07-02 00:03:03 - auto_test - ERROR - Query all failed: (1054, "Unknown column 'name' in 'field list'")
+2026-07-02 00:03:10 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-02 00:03:10 - auto_test - INFO - Database connection established
+2026-07-02 00:03:31 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-02 00:03:31 - auto_test - INFO - Database connection established
+2026-07-02 00:03:31 - auto_test - ERROR - Query all failed: (1146, "Table 'xiangmu.oc_payment_cod' doesn't exist")
+2026-07-02 00:03:31 - auto_test - ERROR - Query all failed: (1146, "Table 'xiangmu.oc_payment_free_checkout' doesn't exist")
+2026-07-02 00:03:46 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-02 00:03:46 - auto_test - INFO - Database connection established
+2026-07-02 00:03:46 - auto_test - ERROR - Query all failed: (1054, "Unknown column 'extension' in 'where clause'")
+2026-07-02 00:05:22 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-02 00:05:22 - auto_test - INFO - Database connection established
+2026-07-02 00:05:34 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-02 00:05:34 - auto_test - INFO - Database connection established
+2026-07-02 00:06:00 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-02 00:06:17 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-02 00:06:17 - auto_test - INFO - Database connection established
+2026-07-02 00:06:22 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-02 00:06:23 - auto_test - INFO - Page opened, navigating to http://localhost/opencart/
+2026-07-02 00:06:23 - auto_test - INFO - Test data loaded: ['register_user', 'login_user', 'invalid_user', 'search_keyword', 'expected_product', 'checkout']
+2026-07-02 00:06:23 - auto_test - INFO - Navigating to http://localhost/opencart//index.php?route=account/register
+2026-07-02 00:06:24 - auto_test - INFO - Register page opened
+2026-07-02 00:06:24 - auto_test - INFO - Registering user: testuser_2026@example.com
+2026-07-02 00:06:24 - auto_test - INFO - Filling: #input-firstname with 'Test'
+2026-07-02 00:06:24 - auto_test - INFO - Filling: #input-lastname with 'User'
+2026-07-02 00:06:24 - auto_test - INFO - Filling: #input-email with 'testuser_2026@example.com'
+2026-07-02 00:06:24 - auto_test - INFO - Filling: #input-password with 'Test@12345'
+2026-07-02 00:06:24 - auto_test - INFO - Clicking: button.btn-primary[type='submit']
+2026-07-02 00:06:24 - auto_test - INFO - Screenshot saved: register_result
+2026-07-02 00:06:24 - auto_test - INFO - Registration completed for testuser_2026@example.com
+2026-07-02 00:06:24 - auto_test - INFO - Navigating to http://localhost/opencart//index.php?route=account/login
+2026-07-02 00:06:24 - auto_test - INFO - Login page opened
+2026-07-02 00:06:24 - auto_test - INFO - Logging in with: testuser_2026@example.com
+2026-07-02 00:06:24 - auto_test - INFO - Filling: #input-email with 'testuser_2026@example.com'
+2026-07-02 00:06:25 - auto_test - INFO - Filling: #input-password with 'Test@12345'
+2026-07-02 00:06:25 - auto_test - INFO - Clicking: button.btn-primary[type='submit']
+2026-07-02 00:06:25 - auto_test - INFO - Screenshot saved: login_result
+2026-07-02 00:06:25 - auto_test - INFO - Login completed
+2026-07-02 00:06:25 - auto_test - INFO - Navigating to http://localhost/opencart/
+2026-07-02 00:06:25 - auto_test - WARNING - Navigation with domcontentloaded failed, trying commit mode
+2026-07-02 00:06:25 - auto_test - INFO - Home page opened
+2026-07-02 00:06:25 - auto_test - INFO - Searching product: MacBook
+2026-07-02 00:06:25 - auto_test - INFO - Filling: input[name='search'] with 'MacBook'
+2026-07-02 00:06:25 - auto_test - INFO - Screenshot saved: search_result
+2026-07-02 00:06:25 - auto_test - INFO - Found 4 products, first: MacBook
+2026-07-02 00:06:25 - auto_test - INFO - Adding product at index 0 to cart
+2026-07-02 00:06:25 - auto_test - INFO - Waiting for: .alert-success (state=visible)
+2026-07-02 00:06:26 - auto_test - INFO - Screenshot saved: add_to_cart_result
+2026-07-02 00:06:26 - auto_test - INFO - Product added to cart
+2026-07-02 00:06:26 - auto_test - INFO - Navigating to http://localhost/opencart//index.php?route=checkout/checkout
+2026-07-02 00:06:26 - auto_test - INFO - Checkout initiated
+2026-07-02 00:06:26 - auto_test - INFO - Filling order comment
+2026-07-02 00:06:26 - auto_test - INFO - Confirming order
+2026-07-02 00:06:28 - auto_test - INFO - Payment method selected
+2026-07-02 00:06:28 - auto_test - INFO - Screenshot saved: checkout_result
+2026-07-02 00:06:43 - auto_test - INFO - Order success: False
+2026-07-02 00:06:43 - auto_test - INFO - Database connection established
+2026-07-02 00:06:43 - auto_test - INFO - Order found in DB: order_id=1
+2026-07-02 00:06:44 - auto_test - INFO - Browser closed
+2026-07-02 00:06:50 - auto_test - INFO - DBHelper initialized, database=xiangmu
+2026-07-02 00:06:50 - auto_test - INFO - Test data loaded: ['register_user', 'login_user', 'invalid_user', 'search_keyword', 'expected_product', 'checkout']
+2026-07-02 00:06:50 - auto_test - INFO - Database connection established
+2026-07-02 00:06:50 - auto_test - INFO - User found: testuser_2026@example.com
+2026-07-02 00:06:50 - auto_test - INFO - Test data loaded: ['register_user', 'login_user', 'invalid_user', 'search_keyword', 'expected_product', 'checkout']
+2026-07-02 00:06:50 - auto_test - INFO - Order found: order_id=1
+2026-07-02 00:06:50 - auto_test - INFO - Test data loaded: ['register_user', 'login_user', 'invalid_user', 'search_keyword', 'expected_product', 'checkout']
+2026-07-02 00:06:50 - auto_test - INFO - Order products count: 1
+2026-07-02 00:06:50 - auto_test - INFO - Test data loaded: ['register_user', 'login_user', 'invalid_user', 'search_keyword', 'expected_product', 'checkout']
+2026-07-02 00:06:50 - auto_test - INFO - Product 28: ordered=1, stock=938
+2026-07-02 00:06:52 - auto_test - INFO - Page opened, navigating to http://localhost/opencart/
+2026-07-02 00:06:52 - auto_test - INFO - Test data loaded: ['register_user', 'login_user', 'invalid_user', 'search_keyword', 'expected_product', 'checkout']
+2026-07-02 00:06:52 - auto_test - INFO - Navigating to http://localhost/opencart//index.php?route=account/register
+2026-07-02 00:06:52 - auto_test - INFO - Register page opened
+2026-07-02 00:06:52 - auto_test - INFO - Registering user: testuser_2026@example.com
+2026-07-02 00:06:52 - auto_test - INFO - Filling: #input-firstname with 'Test'
+2026-07-02 00:06:52 - auto_test - INFO - Filling: #input-lastname with 'User'
+2026-07-02 00:06:52 - auto_test - INFO - Filling: #input-email with 'testuser_2026@example.com'
+2026-07-02 00:06:52 - auto_test - INFO - Filling: #input-password with 'Test@12345'
+2026-07-02 00:06:52 - auto_test - INFO - Clicking: button.btn-primary[type='submit']
+2026-07-02 00:06:52 - auto_test - INFO - Screenshot saved: register_result
+2026-07-02 00:06:52 - auto_test - INFO - Registration completed for testuser_2026@example.com
+2026-07-02 00:06:52 - auto_test - INFO - Navigating to http://localhost/opencart//index.php?route=account/login
+2026-07-02 00:06:53 - auto_test - INFO - Login page opened
+2026-07-02 00:06:53 - auto_test - INFO - Logging in with: testuser_2026@example.com
+2026-07-02 00:06:53 - auto_test - INFO - Filling: #input-email with 'testuser_2026@example.com'
+2026-07-02 00:06:53 - auto_test - INFO - Filling: #input-password with 'Test@12345'
+2026-07-02 00:06:53 - auto_test - INFO - Clicking: button.btn-primary[type='submit']
+2026-07-02 00:06:53 - auto_test - INFO - Screenshot saved: login_result
+2026-07-02 00:06:53 - auto_test - INFO - Login completed
+2026-07-02 00:06:53 - auto_test - INFO - Navigating to http://localhost/opencart/
+2026-07-02 00:06:53 - auto_test - WARNING - Navigation with domcontentloaded failed, trying commit mode
+2026-07-02 00:06:53 - auto_test - INFO - Home page opened
+2026-07-02 00:06:53 - auto_test - INFO - Searching product: MacBook
+2026-07-02 00:06:53 - auto_test - INFO - Filling: input[name='search'] with 'MacBook'
+2026-07-02 00:06:53 - auto_test - INFO - Screenshot saved: search_result
+2026-07-02 00:06:53 - auto_test - INFO - Found 4 products, first: MacBook
+2026-07-02 00:06:53 - auto_test - INFO - Adding product at index 0 to cart
+2026-07-02 00:06:54 - auto_test - INFO - Waiting for: .alert-success (state=visible)
+2026-07-02 00:06:54 - auto_test - INFO - Screenshot saved: add_to_cart_result
+2026-07-02 00:06:54 - auto_test - INFO - Product added to cart
+2026-07-02 00:06:54 - auto_test - INFO - Navigating to http://localhost/opencart//index.php?route=checkout/checkout
+2026-07-02 00:06:54 - auto_test - INFO - Checkout initiated
+2026-07-02 00:06:54 - auto_test - INFO - Filling order comment
+2026-07-02 00:06:54 - auto_test - INFO - Confirming order
+2026-07-02 00:06:56 - auto_test - INFO - Payment method selected
+2026-07-02 00:06:56 - auto_test - INFO - Screenshot saved: checkout_result
+2026-07-02 00:07:11 - auto_test - INFO - Order success: False
+2026-07-02 00:07:11 - auto_test - INFO - Order found in DB: order_id=1
+2026-07-02 00:07:12 - auto_test - INFO - Browser closed

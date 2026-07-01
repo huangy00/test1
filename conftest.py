@@ -72,10 +72,18 @@ def page():
 def test_data():
     """
     测试数据 Fixture
-    从 data/users.json 读取测试数据
+    从 data/users.json 和 data/products.json 读取测试数据并合并
     """
     users_path = os.path.join(DATA_DIR, "users.json")
+    products_path = os.path.join(DATA_DIR, "products.json")
+
     with open(users_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
+        users_data = json.load(f)
+
+    with open(products_path, "r", encoding="utf-8") as f:
+        products_data = json.load(f)
+
+    # 合并两个数据文件
+    data = {**users_data, **products_data}
     logger.info(f"Test data loaded: {list(data.keys())}")
     return data

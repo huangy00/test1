@@ -45,7 +45,6 @@ class TestCheckoutFlow:
                 firstname=user["firstname"],
                 lastname=user["lastname"],
                 email=user["email"],
-                telephone=user["telephone"],
                 password=user["password"],
             )
             # 截图记录注册结果

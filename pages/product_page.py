@@ -18,16 +18,16 @@ class ProductPage(BasePage):
     LIST_PRODUCTS = ".product-thumb"                      # 商品卡片列表
     PRODUCT_NAME = ".product-thumb h4 a"                  # 商品名称
     PRODUCT_PRICE = ".product-thumb .price"               # 商品价格
-    BTN_ADD_CART = "button[aria-label='Add to Cart']"     # 加入购物车按钮
+    BTN_ADD_CART = "button[title='Add to Cart']"           # 加入购物车按钮
     MSG_CART_SUCCESS = ".alert-success"                   # 加购成功提示
     BTN_VIEW_CART = "a[title='Shopping Cart']"            # 查看购物车按钮
     LINK_CONTINUE_SHOPPING = "a:has-text('Continue')"    # 继续购物链接
 
     def open(self):
-        """打开商品列表页面"""
+        """打开首页（用于搜索）"""
         base_url = config.get("ui", "base_url")
-        self.navigate(f"{base_url}/index.php?route=product/category&path=20")
-        logger.info("Product page opened")
+        self.navigate(f"{base_url}")
+        logger.info("Home page opened")
         return self
 
     def search(self, keyword: str):

@@ -1,0 +1,12 @@
+INFO     auto_test:conftest.py:51 Page opened, navigating to http://localhost/opencart
+INFO     auto_test:conftest.py:80 Test data loaded: ['register_user', 'login_user', 'invalid_user']
+INFO     auto_test:base_page.py:29 Navigating to http://localhost/opencart/index.php?route=account/register
+INFO     auto_test:register_page.py:29 Register page opened
+INFO     auto_test:register_page.py:40 Registering user: testuser_2026@example.com
+INFO     auto_test:base_page.py:54 Filling: #input-firstname with 'Test'
+INFO     auto_test:base_page.py:54 Filling: #input-lastname with 'User'
+INFO     auto_test:base_page.py:54 Filling: #input-email with 'testuser_2026@example.com'
+INFO     auto_test:base_page.py:54 Filling: #input-password with 'Test@12345'
+INFO     auto_test:base_page.py:39 Clicking: button[type='submit']
+WARNING  auto_test:base_page.py:120 Failure screenshot captured: click_failure
+INFO     auto_test:conftest.py:68 Browser closed
