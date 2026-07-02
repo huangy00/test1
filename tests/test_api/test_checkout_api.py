@@ -35,6 +35,10 @@ class TestCheckoutAPI:
             allow_redirects=False,
         )
         assert response.status_code in [301, 302, 200]
+        # BUG-002: 未登录应跳转到登录页，而非购物车页
+        if response.status_code in [301, 302]:
+            location = response.headers.get("Location", "")
+            assert "login" in location.lower(), f"Expected redirect to login page, got: {location}"
 
     @allure.story("Order history")
     @allure.severity(allure.severity_level.NORMAL)

@@ -1,0 +1,13 @@
+用例ID,用例标题,前置条件,测试步骤,测试数据,预期结果,实际结果,优先级,测试模块
+TC-SRCH-001,正常搜索,已登录,1.搜索框输入关键词 2.按回车,keyword=MacBook,搜索结果页显示"MacBook"商品卡片数量>=1 包含名称和价格, ,P0,搜索
+TC-SRCH-002,无结果搜索,已登录,1.搜索框输入不存在的词 2.按回车,keyword=xyz不存在123,页面显示"There is no product that matches the search criteria."或商品数量为0, ,P0,搜索
+TC-SRCH-003,空关键词搜索,已登录,1.搜索框不输入 2.按回车,keyword=空,显示全部商品或提示"Search - Enter a product name", ,P1,搜索
+TC-SRCH-004,特殊字符搜索,已登录,1.搜索框输入特殊字符 2.按回车,keyword=!@#$%^&*(),页面正常加载不显示数据库错误, ,P1,搜索
+TC-SRCH-005,SQL注入搜索,已登录,1.搜索框输入SQL语句 2.按回车,keyword=' OR 1=1 --,页面正常返回不显示SQL错误信息, ,P0,搜索
+TC-SRCH-006,超长关键词,已登录,1.搜索框输入1000个字符 2.按回车,keyword=1000个a,页面正常加载不显示服务器错误, ,P1,搜索
+TC-CART-001,正常加购,已登录,1.搜索商品 2.点Add to Cart,product=MacBook,绿色提示条显示"You have added MacBook to your shopping cart!"右上角购物车数量+1, ,P0,购物车
+TC-CART-002,查看购物车,已登录且已加购,1.点购物车图标,无,购物车下拉显示商品名称MacBook价格数量和总价, ,P0,购物车
+TC-CART-003,修改数量,已登录且已加购,1.进入购物车页面 2.修改数量为2 3.点击更新按钮,quantity=2,商品数量变为2 小计=单价x2 总价相应更新, ,P1,购物车
+TC-CART-004,删除商品,已登录且已加购,1.进入购物车页面 2.点删除按钮,无,商品从列表移除 购物车数量变为0 总价显示$0.00, ,P1,购物车
+TC-CART-005,库存不足加购,商品stock=0,1.搜索该商品 2.点Add to Cart,product=库存为0的商品,显示红色警告"Quantity On Hand is Not Enough"或按钮禁用, ,P0,购物车
+TC-CART-006,未登录加购,未登录状态,1.直接在商品页点Add to Cart,无,跳转到登录页/index.php?route=account/login, ,P1,购物车

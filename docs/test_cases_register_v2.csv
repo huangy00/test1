@@ -1,0 +1,11 @@
+用例ID,用例标题,前置条件,测试步骤,测试数据,预期结果,实际结果,优先级,测试模块
+TC-REG-001,正常注册,无,1.打开注册页 2.填写信息 3.勾选隐私政策 4.点Continue,firstname=张三 email=test_new@example.com password=Test1234,页面跳转到/index.php?route=account/account 显示"Your Account Has Been Created!", ,P0,注册
+TC-REG-002,邮箱重复,邮箱test_new@example.com已注册,1.打开注册页 2.输入已存在邮箱 3.填写其他信息 4.点Continue,email=test_new@example.com(已注册),页面显示红色警告框内容包含"Warning: E-Mail Address is already registered!", ,P0,注册
+TC-REG-003,邮箱为空,无,1.打开注册页 2.邮箱不填 3.填写其他信息 4.点Continue,email=空,邮箱输入框下方显示红色提示"E-Mail Address does not appear to be valid!", ,P0,注册
+TC-REG-004,密码为空,无,1.打开注册页 2.填写其他信息 3.密码不填 4.点Continue,password=空,密码输入框下方显示红色提示"Password does not appear to be valid!", ,P0,注册
+TC-REG-005,必填项全空,无,1.打开注册页 2.所有字段不填 3.点Continue,全部为空,Firstname/Lastname/Email/Password/Telephone下方均显示红色错误提示, ,P0,注册
+TC-REG-006,邮箱格式错误,无,1.打开注册页 2.邮箱输入abc 3.填写其他信息 4.点Continue,email=abc,邮箱输入框下方显示红色提示"E-Mail Address does not appear to be valid!", ,P1,注册
+TC-REG-007,未勾选隐私政策,无,1.打开注册页 2.填写所有信息 3.不勾选隐私政策 4.点Continue,不勾选agree,页面显示红色警告框内容包含"You must agree to the Privacy Policy!", ,P1,注册
+TC-REG-008,SQL注入,无,1.邮箱输入SQL语句 2.填写其他信息 3.点Continue,email=' OR 1=1 --,页面正常返回200不显示数据库错误, ,P0,注册
+TC-REG-009,XSS注入,无,1.名字输入script标签 2.填写其他信息 3.点Continue,firstname=<script>alert(1)</script>,名字输入框原样显示标签文本不弹出alert窗口, ,P0,注册
+TC-REG-010,密码强度不足,无,1.密码只输入12 2.填写其他信息 3.点Continue,password=12,密码输入框提示"Password must be between 4 and 20 characters!", ,P1,注册

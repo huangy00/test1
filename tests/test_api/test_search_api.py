@@ -38,6 +38,7 @@ class TestSearchAPI:
             params={"search": ""},
         )
         assert response.status_code == 200
+        assert "no product" in response.text.lower() or "enter a product name" in response.text.lower()
 
     @allure.story("SQL injection")
     @allure.severity(allure.severity_level.BLOCKER)

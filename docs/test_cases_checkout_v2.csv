@@ -1,0 +1,9 @@
+用例ID,用例标题,前置条件,测试步骤,测试数据,预期结果,实际结果,优先级,测试模块
+TC-ORD-001,正常下单,已登录已加购商品,1.去结算 2.点Choose选支付方式 3.勾选Cash On Delivery 4.点Continue 5.点Confirm Order,payment=Cod,页面显示"Your order has been placed!" 订单号显示在页面中, ,P0,结算
+TC-ORD-002,未选支付方式,已登录已加购商品,1.去结算 2.不点Choose直接找确认按钮,无,Confirm Order按钮处于disabled禁用状态无法点击, ,P0,结算
+TC-ORD-003,购物车为空下单,已登录购物车为空,1.直接访问/index.php?route=checkout/checkout,无,页面重定向到购物车页面显示"Your shopping cart is empty!", ,P0,结算
+TC-ORD-004,未登录下单,未登录状态,1.直接访问/index.php?route=checkout/checkout,无,页面重定向到登录页/index.php?route=account/login, ,P0,结算
+TC-ORD-005,收货地址为空,已登录已加购商品,1.去结算 2.地址栏全部清空 3.点Continue,无,地址输入框下方显示红色提示"First Name must be between 1 and 32 characters!", ,P0,结算
+TC-ORD-006,订单历史查看,已登录有历史订单,1.点My Account 2.点My Orders,无,页面显示订单列表包含订单号日期状态和总价, ,P1,结算
+TC-ORD-007,订单详情查看,已登录有历史订单,1.进入My Orders 2.点某订单的View按钮,order_id=1,页面显示订单详情包含商品名称数量单价和收货地址, ,P1,结算
+TC-ORD-008,取消订单,已登录有pending状态订单,1.进入订单详情 2.点Return按钮,无,订单状态从pending变为cancelled或显示退款信息, ,P2,结算

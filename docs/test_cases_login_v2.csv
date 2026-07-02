@@ -1,0 +1,11 @@
+用例ID,用例标题,前置条件,测试步骤,测试数据,预期结果,实际结果,优先级,测试模块
+TC-LOGIN-001,正常登录,用户zhangsan@test.com已注册,1.打开登录页 2.输入邮箱 3.输入密码 4.点Login,email=zhangsan@test.com password=Test1234,页面跳转到/index.php?route=account/account 页面显示"My Account"标题, ,P0,登录
+TC-LOGIN-002,密码错误,用户zhangsan@test.com已注册,1.打开登录页 2.输入正确邮箱 3.输入错误密码 4.点Login,email=zhangsan@test.com password=wrong123,页面显示红色警告框内容包含"Warning: No match for E-Mail Address and/or Password", ,P0,登录
+TC-LOGIN-003,账号不存在,无,1.打开登录页 2.输入未注册邮箱 3.输入密码 4.点Login,email=notexist@test.com password=Test1234,页面显示红色警告框内容包含"Warning: No match for E-Mail Address and/or Password", ,P0,登录
+TC-LOGIN-004,邮箱为空,无,1.打开登录页 2.邮箱不填 3.输入密码 4.点Login,email=空 password=Test1234,邮箱输入框下方显示红色提示"E-Mail Address does not appear to be valid!", ,P1,登录
+TC-LOGIN-005,密码为空,无,1.打开登录页 2.输入邮箱 3.密码不填 4.点Login,email=zhangsan@test.com password=空,密码输入框下方显示红色提示"Password does not appear to be valid!", ,P1,登录
+TC-LOGIN-006,邮箱格式错误,无,1.打开登录页 2.输入无@的邮箱 3.输入密码 4.点Login,email=abc password=Test1234,邮箱输入框下方显示红色提示"E-Mail Address does not appear to be valid!", ,P1,登录
+TC-LOGIN-007,SQL注入,无,1.打开登录页 2.邮箱输入SQL语句 3.输入密码 4.点Login,email=' OR 1=1 -- password=1234,页面正常返回200不显示数据库错误信息, ,P0,登录
+TC-LOGIN-008,连续输错5次锁定,用户zhangsan@test.com已注册,1.连续5次输入错误密码 2.观察第5次结果,5次都用email=zhangsan@test.com password=wrong123,第5次显示"Warning: Your account has been locked"或验证码验证, ,P1,登录
+TC-LOGIN-009,密码强度校验,无,1.打开注册页 2.密码只输12 3.填写其他信息 4.点Continue,password=12,密码输入框提示"Password must be between 4 and 20 characters!", ,P2,登录
+TC-LOGIN-010,忘记密码,用户zhangsan@test.com已注册,1.打开登录页 2.点Forgotten Password 3.输入邮箱 4.点Continue,email=zhangsan@test.com,页面显示"Success: A password reset link has been sent to your e-mail address.", ,P2,登录
