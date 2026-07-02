@@ -37,9 +37,10 @@ class ProductPage(BasePage):
         """
         logger.info(f"Searching product: {keyword}")
         self.fill(self.INPUT_SEARCH, keyword)
-        # 点击搜索按钮（可能有多个，取第一个）
-        self.page.locator(self.BTN_SEARCH).first.click()
+        # 使用 Enter 键提交搜索（比点击按钮更可靠）
+        self.page.locator(self.INPUT_SEARCH).press("Enter")
         self.page.wait_for_load_state("domcontentloaded")
+        self.page.wait_for_timeout(1000)
         return self
 
     def get_product_count(self) -> int:
