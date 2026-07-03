@@ -10,6 +10,7 @@
         "city": "Beijing",
         "postcode": "100000",
         "country": "China",
-        "region": "Beijing"
+        "region": "Beijing",
+        "comment": "自动化测试订单"
     }
 }
